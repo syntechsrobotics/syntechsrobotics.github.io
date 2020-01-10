@@ -1141,7 +1141,7 @@ section.lazy-placeholder:after {
 .cid-rLYPoL2VFh {
   padding-top: 135px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/ashton.jpg");
+  background-image: url("../../../assets/images/west-van-9-2000x1333.jpg");
 }
 .cid-rLYPoL2VFh .mbr-overlay {
   background: #232323;
@@ -2198,9 +2198,9 @@ section.lazy-placeholder:after {
   text-shadow: black 1px 0 10px;
 }
 .cid-rMb4CNfuJI {
-  padding-top: 60px;
-  padding-bottom: 30px;
-  background-color: #ffffff;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: #fcf6f6;
 }
 .cid-rMb4CNfuJI .container {
   max-width: 1500px;
@@ -2247,6 +2247,39 @@ section.lazy-placeholder:after {
 }
 .cid-rMb4CNfuJI H2 {
   color: #232323;
+}
+.cid-rN6XXoIBg4 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: linear-gradient(90deg, #ffffff, #ffffff);
+}
+.cid-rN6XXoIBg4 .mbr-overlay {
+  background: linear-gradient(90deg, #ffffff, #d7e8f6);
+}
+.cid-rN6XXoIBg4 .card-wrap {
+  background-color: #fcf6f6;
+  padding: 2rem;
+  margin: 0;
+  border-radius: .25rem;
+  -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+  box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+}
+@media (min-width: 992px) {
+  .cid-rN6XXoIBg4 .card-wrap {
+    width: calc(100% + 10rem);
+    margin-right: -10rem;
+  }
+}
+.cid-rN6XXoIBg4 .img-wrap img {
+  width: 100%;
+  border-radius: .25rem;
+  -webkit-box-shadow: 0px 0px 30px rgba(120, 120, 120, 0.3);
+}
+.cid-rN6XXoIBg4 .mbr-section-subtitle,
+.cid-rN6XXoIBg4 .mbr-section-btn {
+  color: #232323;
+  text-align: left;
+  line-height: 1.75;
 }
 .cid-rMarvSf4bd {
   padding-top: 30px;
@@ -8364,8 +8397,31 @@ section.lazy-placeholder:after {
   font-size: 10rem;
   text-shadow: 0.1rem 0 0.5rem rgba(0, 0, 0, 0.5);
 }
+.cid-rN2XJcMnFh {
+  padding-top: 60px;
+  padding-bottom: 0px;
+  background-color: #fcf6f6;
+}
+.cid-rN2XJcMnFh .line {
+  background-color: #860009;
+  color: #860009;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rN2XJcMnFh .section-text {
+  padding: 2rem 0;
+}
+.cid-rN2XJcMnFh .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rN2XJcMnFh .inner-container {
+    width: 100% !important;
+  }
+}
 .cid-rMhpf20L21 {
-  padding-top: 90px;
+  padding-top: 60px;
   padding-bottom: 90px;
   background: linear-gradient(#fcf6f6, #ffffff);
 }
@@ -8692,6 +8748,29 @@ section.lazy-placeholder:after {
   padding-right: 10px;
   background-color: #fcf6f6;
 }
+.cid-rN3qalDqhD {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-rN3qalDqhD .line {
+  background-color: #860009;
+  color: #860009;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rN3qalDqhD .section-text {
+  padding: 2rem 0;
+}
+.cid-rN3qalDqhD .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rN3qalDqhD .inner-container {
+    width: 100% !important;
+  }
+}
 .cid-rMzjkVSDLZ {
   padding-top: 0px;
   padding-bottom: 30px;
@@ -8754,7 +8833,7 @@ section.lazy-placeholder:after {
   background-size: cover;
   max-width: 100%;
   width: auto;
-  height: 500px;
+  height: 600px;
 }
 .cid-rMzjkVSDLZ .carousel {
   display: flex;
@@ -8788,19 +8867,19 @@ section.lazy-placeholder:after {
 }
 .cid-rMzjkVSDLZ .li1,
 .cid-rMzjkVSDLZ .carousel-item:nth-child(1) .wrap-img {
-  background-image: url("../../../assets/images/season-opener-1.jpg");
+  background-image: url("../../../assets/images/bots-19-2000x1333.jpg");
 }
 .cid-rMzjkVSDLZ .li2,
 .cid-rMzjkVSDLZ .carousel-item:nth-child(2) .wrap-img {
-  background-image: url("../../../assets/images/season-opener-5.jpg");
+  background-image: url("../../../assets/images/bots-29-2000x1333.jpg");
 }
 .cid-rMzjkVSDLZ .li3,
 .cid-rMzjkVSDLZ .carousel-item:nth-child(3) .wrap-img {
-  background-image: url("../../../assets/images/fall-fixed-31.jpg");
+  background-image: url("../../../assets/images/bots-11-2000x1333.jpg");
 }
 .cid-rMzjkVSDLZ .li4,
 .cid-rMzjkVSDLZ .carousel-item:nth-child(4) .wrap-img {
-  background-image: url("../../../assets/images/05.jpg");
+  background-image: url("../../../assets/images/bots-9-2000x1333.jpg");
 }
 .cid-rMzjkVSDLZ .li5,
 .cid-rMzjkVSDLZ .carousel-item:nth-child(5) .wrap-img {
@@ -9858,9 +9937,32 @@ section.lazy-placeholder:after {
   font-size: 10rem;
   text-shadow: 0.1rem 0 0.5rem rgba(0, 0, 0, 0.5);
 }
+.cid-rN3coK8XsX {
+  padding-top: 60px;
+  padding-bottom: 0px;
+  background-color: #fcf6f6;
+}
+.cid-rN3coK8XsX .line {
+  background-color: #860009;
+  color: #860009;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rN3coK8XsX .section-text {
+  padding: 2rem 0;
+}
+.cid-rN3coK8XsX .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rN3coK8XsX .inner-container {
+    width: 100% !important;
+  }
+}
 .cid-rMhq4IwLSJ {
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 60px;
   background: linear-gradient(#fcf6f6, #ffffff);
 }
 .cid-rMhq4IwLSJ .mbr-section-subtitle {
@@ -10142,6 +10244,29 @@ section.lazy-placeholder:after {
   padding-right: 10px;
   background-color: #fcf6f6;
 }
+.cid-rN3qg66p3w {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-rN3qg66p3w .line {
+  background-color: #860009;
+  color: #860009;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rN3qg66p3w .section-text {
+  padding: 2rem 0;
+}
+.cid-rN3qg66p3w .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rN3qg66p3w .inner-container {
+    width: 100% !important;
+  }
+}
 .cid-rMzmgDY5ts {
   padding-top: 0px;
   padding-bottom: 30px;
@@ -10204,7 +10329,7 @@ section.lazy-placeholder:after {
   background-size: cover;
   max-width: 100%;
   width: auto;
-  height: 500px;
+  height: 600px;
 }
 .cid-rMzmgDY5ts .carousel {
   display: flex;
@@ -10238,23 +10363,23 @@ section.lazy-placeholder:after {
 }
 .cid-rMzmgDY5ts .li1,
 .cid-rMzmgDY5ts .carousel-item:nth-child(1) .wrap-img {
-  background-image: url("../../../assets/images/west-van-20.jpg");
+  background-image: url("../../../assets/images/bots-1-2000x1333.jpg");
 }
 .cid-rMzmgDY5ts .li2,
 .cid-rMzmgDY5ts .carousel-item:nth-child(2) .wrap-img {
-  background-image: url("../../../assets/images/season-opener-8.jpg");
+  background-image: url("../../../assets/images/bots-13-2000x1333.jpg");
 }
 .cid-rMzmgDY5ts .li3,
 .cid-rMzmgDY5ts .carousel-item:nth-child(3) .wrap-img {
-  background-image: url("../../../assets/images/season-opener-6.jpg");
+  background-image: url("../../../assets/images/bots-21-2000x1333.jpg");
 }
 .cid-rMzmgDY5ts .li4,
 .cid-rMzmgDY5ts .carousel-item:nth-child(4) .wrap-img {
-  background-image: url("../../../assets/images/050.jpg");
+  background-image: url("../../../assets/images/bots-18-2000x1333.jpg");
 }
 .cid-rMzmgDY5ts .li5,
 .cid-rMzmgDY5ts .carousel-item:nth-child(5) .wrap-img {
-  background-image: url("../../../assets/images/061.jpg");
+  background-image: url("../../../assets/images/bots-17-2000x1333.jpg");
 }
 .cid-rMzmgDY5ts .li6,
 .cid-rMzmgDY5ts .carousel-item:nth-child(6) .wrap-img {
@@ -11308,8 +11433,31 @@ section.lazy-placeholder:after {
   font-size: 10rem;
   text-shadow: 0.1rem 0 0.5rem rgba(0, 0, 0, 0.5);
 }
+.cid-rN3cs7LdJa {
+  padding-top: 60px;
+  padding-bottom: 0px;
+  background-color: #fcf6f6;
+}
+.cid-rN3cs7LdJa .line {
+  background-color: #860009;
+  color: #860009;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rN3cs7LdJa .section-text {
+  padding: 2rem 0;
+}
+.cid-rN3cs7LdJa .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rN3cs7LdJa .inner-container {
+    width: 100% !important;
+  }
+}
 .cid-rMhqkOfVWO {
-  padding-top: 90px;
+  padding-top: 60px;
   padding-bottom: 90px;
   background: linear-gradient(#fcf6f6, #ffffff);
 }
@@ -11636,6 +11784,29 @@ section.lazy-placeholder:after {
   padding-right: 10px;
   background-color: #fcf6f6;
 }
+.cid-rN3rHmXXnH {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-rN3rHmXXnH .line {
+  background-color: #860009;
+  color: #860009;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rN3rHmXXnH .section-text {
+  padding: 2rem 0;
+}
+.cid-rN3rHmXXnH .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rN3rHmXXnH .inner-container {
+    width: 100% !important;
+  }
+}
 .cid-rMzmkWl2Qm {
   padding-top: 0px;
   padding-bottom: 30px;
@@ -11698,7 +11869,7 @@ section.lazy-placeholder:after {
   background-size: cover;
   max-width: 100%;
   width: auto;
-  height: 500px;
+  height: 600px;
 }
 .cid-rMzmkWl2Qm .carousel {
   display: flex;
@@ -11732,23 +11903,23 @@ section.lazy-placeholder:after {
 }
 .cid-rMzmkWl2Qm .li1,
 .cid-rMzmkWl2Qm .carousel-item:nth-child(1) .wrap-img {
-  background-image: url("../../../assets/images/season-opener-2.jpg");
+  background-image: url("../../../assets/images/bots-22-2000x1333.jpg");
 }
 .cid-rMzmkWl2Qm .li2,
 .cid-rMzmkWl2Qm .carousel-item:nth-child(2) .wrap-img {
-  background-image: url("../../../assets/images/west-van-21.jpg");
+  background-image: url("../../../assets/images/bots-5-2000x1333.jpg");
 }
 .cid-rMzmkWl2Qm .li3,
 .cid-rMzmkWl2Qm .carousel-item:nth-child(3) .wrap-img {
-  background-image: url("../../../assets/images/west-van-22.jpg");
+  background-image: url("../../../assets/images/bots-28-2000x1333.jpg");
 }
 .cid-rMzmkWl2Qm .li4,
 .cid-rMzmkWl2Qm .carousel-item:nth-child(4) .wrap-img {
-  background-image: url("../../../assets/images/050.jpg");
+  background-image: url("../../../assets/images/bots-27-2000x1333.jpg");
 }
 .cid-rMzmkWl2Qm .li5,
 .cid-rMzmkWl2Qm .carousel-item:nth-child(5) .wrap-img {
-  background-image: url("../../../assets/images/061.jpg");
+  background-image: url("../../../assets/images/bots-3-2000x1333.jpg");
 }
 .cid-rMzmkWl2Qm .li6,
 .cid-rMzmkWl2Qm .carousel-item:nth-child(6) .wrap-img {
@@ -12802,8 +12973,31 @@ section.lazy-placeholder:after {
   font-size: 10rem;
   text-shadow: 0.1rem 0 0.5rem rgba(0, 0, 0, 0.5);
 }
+.cid-rN3cuprpLa {
+  padding-top: 60px;
+  padding-bottom: 0px;
+  background-color: #fcf6f6;
+}
+.cid-rN3cuprpLa .line {
+  background-color: #860009;
+  color: #860009;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rN3cuprpLa .section-text {
+  padding: 2rem 0;
+}
+.cid-rN3cuprpLa .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rN3cuprpLa .inner-container {
+    width: 100% !important;
+  }
+}
 .cid-rMhqyeJw9A {
-  padding-top: 90px;
+  padding-top: 60px;
   padding-bottom: 90px;
   background: linear-gradient(#fcf6f6, #ffffff);
 }
@@ -13086,6 +13280,29 @@ section.lazy-placeholder:after {
   padding-right: 10px;
   background-color: #fcf6f6;
 }
+.cid-rN3lPeytD6 {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-rN3lPeytD6 .line {
+  background-color: #860009;
+  color: #860009;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rN3lPeytD6 .section-text {
+  padding: 2rem 0;
+}
+.cid-rN3lPeytD6 .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rN3lPeytD6 .inner-container {
+    width: 100% !important;
+  }
+}
 .cid-rMzmDRKbgp {
   padding-top: 0px;
   padding-bottom: 30px;
@@ -13148,7 +13365,7 @@ section.lazy-placeholder:after {
   background-size: cover;
   max-width: 100%;
   width: auto;
-  height: 500px;
+  height: 600px;
 }
 .cid-rMzmDRKbgp .carousel {
   display: flex;
@@ -13182,23 +13399,23 @@ section.lazy-placeholder:after {
 }
 .cid-rMzmDRKbgp .li1,
 .cid-rMzmDRKbgp .carousel-item:nth-child(1) .wrap-img {
-  background-image: url("../../../assets/images/west-van-26-2000x1333.jpg");
+  background-image: url("../../../assets/images/bots-7-2000x1333.jpg");
 }
 .cid-rMzmDRKbgp .li2,
 .cid-rMzmDRKbgp .carousel-item:nth-child(2) .wrap-img {
-  background-image: url("../../../assets/images/west-van-17.jpg");
+  background-image: url("../../../assets/images/bots-14-2000x1333.jpg");
 }
 .cid-rMzmDRKbgp .li3,
 .cid-rMzmDRKbgp .carousel-item:nth-child(3) .wrap-img {
-  background-image: url("../../../assets/images/west-van-11.jpg");
+  background-image: url("../../../assets/images/bots-12-2000x1333.jpg");
 }
 .cid-rMzmDRKbgp .li4,
 .cid-rMzmDRKbgp .carousel-item:nth-child(4) .wrap-img {
-  background-image: url("../../../assets/images/050.jpg");
+  background-image: url("../../../assets/images/bots-26-2000x1333.jpg");
 }
 .cid-rMzmDRKbgp .li5,
 .cid-rMzmDRKbgp .carousel-item:nth-child(5) .wrap-img {
-  background-image: url("../../../assets/images/061.jpg");
+  background-image: url("../../../assets/images/bots-20-2000x1333.jpg");
 }
 .cid-rMzmDRKbgp .li6,
 .cid-rMzmDRKbgp .carousel-item:nth-child(6) .wrap-img {
@@ -14252,8 +14469,31 @@ section.lazy-placeholder:after {
   font-size: 10rem;
   text-shadow: 0.1rem 0 0.5rem rgba(0, 0, 0, 0.5);
 }
+.cid-rN3cAeBwom {
+  padding-top: 60px;
+  padding-bottom: 0px;
+  background-color: #fcf6f6;
+}
+.cid-rN3cAeBwom .line {
+  background-color: #860009;
+  color: #860009;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rN3cAeBwom .section-text {
+  padding: 2rem 0;
+}
+.cid-rN3cAeBwom .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rN3cAeBwom .inner-container {
+    width: 100% !important;
+  }
+}
 .cid-rMhuevpEjN {
-  padding-top: 90px;
+  padding-top: 60px;
   padding-bottom: 90px;
   background: linear-gradient(#fcf6f6, #ffffff);
 }
@@ -14536,6 +14776,29 @@ section.lazy-placeholder:after {
   padding-right: 10px;
   background-color: #fcf6f6;
 }
+.cid-rN3nKd2tXc {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-rN3nKd2tXc .line {
+  background-color: #860009;
+  color: #860009;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rN3nKd2tXc .section-text {
+  padding: 2rem 0;
+}
+.cid-rN3nKd2tXc .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rN3nKd2tXc .inner-container {
+    width: 100% !important;
+  }
+}
 .cid-rMzmOP6ciK {
   padding-top: 0px;
   padding-bottom: 30px;
@@ -14598,7 +14861,7 @@ section.lazy-placeholder:after {
   background-size: cover;
   max-width: 100%;
   width: auto;
-  height: 500px;
+  height: 600px;
 }
 .cid-rMzmOP6ciK .carousel {
   display: flex;
@@ -14632,19 +14895,19 @@ section.lazy-placeholder:after {
 }
 .cid-rMzmOP6ciK .li1,
 .cid-rMzmOP6ciK .carousel-item:nth-child(1) .wrap-img {
-  background-image: url("../../../assets/images/android-emoji-2755.png");
+  background-image: url("../../../assets/images/bots-2-2000x1333.jpg");
 }
 .cid-rMzmOP6ciK .li2,
 .cid-rMzmOP6ciK .carousel-item:nth-child(2) .wrap-img {
-  background-image: url("../../../assets/images/android-emoji-2755.png");
+  background-image: url("../../../assets/images/bots-16-2000x1333.jpg");
 }
 .cid-rMzmOP6ciK .li3,
 .cid-rMzmOP6ciK .carousel-item:nth-child(3) .wrap-img {
-  background-image: url("../../../assets/images/android-emoji-2755.png");
+  background-image: url("../../../assets/images/bots-10-2000x1333.jpg");
 }
 .cid-rMzmOP6ciK .li4,
 .cid-rMzmOP6ciK .carousel-item:nth-child(4) .wrap-img {
-  background-image: url("../../../assets/images/050.jpg");
+  background-image: url("../../../assets/images/bots-8-2000x1333.jpg");
 }
 .cid-rMzmOP6ciK .li5,
 .cid-rMzmOP6ciK .carousel-item:nth-child(5) .wrap-img {
@@ -15702,8 +15965,31 @@ section.lazy-placeholder:after {
   font-size: 10rem;
   text-shadow: 0.1rem 0 0.5rem rgba(0, 0, 0, 0.5);
 }
+.cid-rN3cwHCcXc {
+  padding-top: 60px;
+  padding-bottom: 0px;
+  background-color: #fcf6f6;
+}
+.cid-rN3cwHCcXc .line {
+  background-color: #860009;
+  color: #860009;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rN3cwHCcXc .section-text {
+  padding: 2rem 0;
+}
+.cid-rN3cwHCcXc .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rN3cwHCcXc .inner-container {
+    width: 100% !important;
+  }
+}
 .cid-rMhqM9ePGl {
-  padding-top: 90px;
+  padding-top: 60px;
   padding-bottom: 90px;
   background: linear-gradient(#fcf6f6, #ffffff);
 }
@@ -15986,6 +16272,29 @@ section.lazy-placeholder:after {
   padding-right: 10px;
   background-color: #fcf6f6;
 }
+.cid-rN3jQRnikY {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-rN3jQRnikY .line {
+  background-color: #860009;
+  color: #860009;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rN3jQRnikY .section-text {
+  padding: 2rem 0;
+}
+.cid-rN3jQRnikY .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rN3jQRnikY .inner-container {
+    width: 100% !important;
+  }
+}
 .cid-rMzmJK7cYq {
   padding-top: 0px;
   padding-bottom: 30px;
@@ -16048,7 +16357,7 @@ section.lazy-placeholder:after {
   background-size: cover;
   max-width: 100%;
   width: auto;
-  height: 500px;
+  height: 600px;
 }
 .cid-rMzmJK7cYq .carousel {
   display: flex;
@@ -16082,19 +16391,19 @@ section.lazy-placeholder:after {
 }
 .cid-rMzmJK7cYq .li1,
 .cid-rMzmJK7cYq .carousel-item:nth-child(1) .wrap-img {
-  background-image: url("../../../assets/images/west-van-1.jpg");
+  background-image: url("../../../assets/images/bots-4-2000x1333.jpg");
 }
 .cid-rMzmJK7cYq .li2,
 .cid-rMzmJK7cYq .carousel-item:nth-child(2) .wrap-img {
-  background-image: url("../../../assets/images/west-van-13.jpg");
+  background-image: url("../../../assets/images/bots-23-2000x1333.jpg");
 }
 .cid-rMzmJK7cYq .li3,
 .cid-rMzmJK7cYq .carousel-item:nth-child(3) .wrap-img {
-  background-image: url("../../../assets/images/west-van-12.jpg");
+  background-image: url("../../../assets/images/bots-25-2000x1333.jpg");
 }
 .cid-rMzmJK7cYq .li4,
 .cid-rMzmJK7cYq .carousel-item:nth-child(4) .wrap-img {
-  background-image: url("../../../assets/images/050.jpg");
+  background-image: url("../../../assets/images/bots-24-2000x1333.jpg");
 }
 .cid-rMzmJK7cYq .li5,
 .cid-rMzmJK7cYq .carousel-item:nth-child(5) .wrap-img {
@@ -17442,7 +17751,7 @@ section.lazy-placeholder:after {
   background-size: cover;
   max-width: 100%;
   width: auto;
-  height: 500px;
+  height: 600px;
 }
 .cid-rMzmU1DUw9 .carousel {
   display: flex;
