@@ -18,21 +18,6 @@
 		<loc>https://syntechsrobotics.ca/about-vex.html</loc>
 	</url>
 	<url>
-		<loc>https://syntechsrobotics.ca/6408X.html</loc>
-	</url>
-	<url>
-		<loc>https://syntechsrobotics.ca/6408U.html</loc>
-	</url>
-	<url>
-		<loc>https://syntechsrobotics.ca/6408V.html</loc>
-	</url>
-	<url>
-		<loc>https://syntechsrobotics.ca/6408Z.html</loc>
-	</url>
-	<url>
-		<loc>https://syntechsrobotics.ca/6408G.html</loc>
-	</url>
-	<url>
 		<loc>https://syntechsrobotics.ca/6408-FRC.html</loc>
 	</url>
 	<url>
@@ -57,9 +42,6 @@
 		<loc>https://syntechsrobotics.ca/join.html</loc>
 	</url>
 	<url>
-		<loc>https://syntechsrobotics.ca/mentors.html</loc>
-	</url>
-	<url>
 		<loc>https://syntechsrobotics.ca/awards.html</loc>
 	</url>
 	<url>
@@ -72,9 +54,33 @@
 		<loc>https://syntechsrobotics.ca/changelog.html</loc>
 	</url>
 	<url>
-		<loc>https://syntechsrobotics.ca/6408S.html</loc>
+		<loc>https://syntechsrobotics.ca/website.html</loc>
 	</url>
 	<url>
-		<loc>https://syntechsrobotics.ca/website.html</loc>
+		<loc>https://syntechsrobotics.ca/6408x.html</loc>
+	</url>
+	<url>
+		<loc>https://syntechsrobotics.ca/6408u.html</loc>
+	</url>
+	<url>
+		<loc>https://syntechsrobotics.ca/6408v.html</loc>
+	</url>
+	<url>
+		<loc>https://syntechsrobotics.ca/6408z.html</loc>
+	</url>
+	<url>
+		<loc>https://syntechsrobotics.ca/6408s.html</loc>
+	</url>
+	<url>
+		<loc>https://syntechsrobotics.ca/6408g.html</loc>
+	</url>
+	<url>
+		<loc>https://syntechsrobotics.ca/robot-design.html</loc>
+	</url>
+	<url>
+		<loc>https://syntechsrobotics.ca/design-process.html</loc>
+	</url>
+	<url>
+		<loc>https://syntechsrobotics.ca/friends.html</loc>
 	</url>
 </urlset>
