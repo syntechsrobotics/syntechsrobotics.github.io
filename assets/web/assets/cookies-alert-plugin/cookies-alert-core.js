@@ -1,16 +1,344 @@
-var $jscomp=$jscomp||{};$jscomp.scope={};$jscomp.findInternal=function(b,f,d){b instanceof String&&(b=String(b));for(var h=b.length,g=0;g<h;g++){var a=b[g];if(f.call(d,a,g,b))return{i:g,v:a}}return{i:-1,v:void 0}};$jscomp.ASSUME_ES5=!1;$jscomp.ASSUME_NO_NATIVE_MAP=!1;$jscomp.ASSUME_NO_NATIVE_SET=!1;$jscomp.SIMPLE_FROUND_POLYFILL=!1;
-$jscomp.defineProperty=$jscomp.ASSUME_ES5||"function"==typeof Object.defineProperties?Object.defineProperty:function(b,f,d){b!=Array.prototype&&b!=Object.prototype&&(b[f]=d.value)};$jscomp.getGlobal=function(b){return"undefined"!=typeof window&&window===b?b:"undefined"!=typeof global&&null!=global?global:b};$jscomp.global=$jscomp.getGlobal(this);
-$jscomp.polyfill=function(b,f,d,h){if(f){d=$jscomp.global;b=b.split(".");for(h=0;h<b.length-1;h++){var g=b[h];g in d||(d[g]={});d=d[g]}b=b[b.length-1];h=d[b];f=f(h);f!=h&&null!=f&&$jscomp.defineProperty(d,b,{configurable:!0,writable:!0,value:f})}};$jscomp.polyfill("Array.prototype.find",function(b){return b?b:function(b,d){return $jscomp.findInternal(this,b,d).v}},"es6","es3");
-(function(b){b.cookiesDirective=function(a){a=b.extend({explicitConsent:!0,position:"top",duration:10,limit:0,message:null,cookieScripts:null,privacyPolicyUri:"privacy.html",scriptWrapper:function(){},customDialogSelector:null,fontFamily:"helvetica",fontColor:"#FFFFFF",fontSize:"13px",backgroundColor:"#000000",backgroundOpacity:"80",linkColor:"#CA0000",underlineLink:!0,textButton:null,colorButton:"",positionOffset:"0",animate:!0,callback:function(){}},a);if(f("cookiesDirective"))a.scriptWrapper.call();
-else{if(0<a.limit){if(f("cookiesDisclosureCount")){var e=f("cookiesDisclosureCount");e++;d("cookiesDisclosureCount",e,1)}else d("cookiesDisclosureCount",1,1);a.limit>=f("cookiesDisclosureCount")&&g(a)}else g(a);a.explicitConsent||a.scriptWrapper.call()}};b.cookiesDirective.loadScript=function(a){a=b.extend({uri:"",appendTo:"body"},a);var e=String(a.appendTo),c=document.createElement("script");c.src=a.uri;c.type="text/javascript";c.onload=c.onreadystatechange=function(){};switch(a.appendTo){case "head":b("head").append(c);
-break;case "body":b("body").append(c);break;default:b("#"+e).append(c)}};var f=function(a){a+="=";for(var b=document.cookie.split(";"),c=0;c<b.length;c++){for(var d=b[c];" "==d.charAt(0);)d=d.substring(1,d.length);if(0===d.indexOf(a))return d.substring(a.length,d.length)}return null},d=function(a,b,c){var d="";c&&(d=new Date,d.setTime(d.getTime()+864E5*c),d="; expires="+d.toGMTString());document.cookie=a+"="+b+d+"; path=/"},h=function(){var a;if("Microsoft Internet Explorer"==navigator.appName){null!==
-/MSIE ([0-9]{1,}[\.0-9]{0,})/.exec(navigator.userAgent)&&(a=parseFloat(RegExp.$1));if(8>=a)return!0;if(9==a&&"BackCompat"==document.compatMode)return a=document.createElement("meta"),a.content="IE=EmulateIE8",document.getElementsByTagName("head")[0].appendChild(a),!0}return!1},g=function(a){a.css="fixed";h()&&(a.position="top",a.css="absolute");var e="";if(a.cookieScripts){e=a.cookieScripts.split(",");var c=e.length,f="";if(1<c){for(var g=0;g<c-1;g++)f+=e[g]+", ";e=" We use "+f.substring(0,f.length-
-2)+" and "+e[c-1]+" scripts, which all set cookies. "}else e=" We use a "+e[0]+" script which sets cookies."}a.customDialogSelector?(e=b("#cookie-dialog"),c=e.find("#cookiesdirective"),a.explicitConsent?(0==c.find("#epdnotick").length&&(c.append('<div id="epdnotick" style="display: none;">You must tick the "I accept cookies from this site" box to accept</div>'),console.warn('cookiesDirective: Element with ID "epdnotick" does not exist in custom dialog, so automatically added')),0==c.find("input#epdagree").length&&
-(c.append('<input type="checkbox" id="epdagree" />'),console.warn('cookiesDirective: Checkbox with ID "epdagree" does not exist in custom dialog, so automatically added')),0==c.find("input#explicitsubmit").length&&(c.append('<input type="submit" id="explicitsubmit" value="Continue" />'),console.warn('cookiesDirective: Submit button with ID "explicitsubmit" does not exist in custom dialog, so automatically added'))):0==c.find("input#impliedsubmit").length&&(c.append('<input type="submit" id="impliedsubmit" value="Do not show this message again" />'),
-console.warn('cookiesDirective: Submit button with ID "impliedsubmit" does not exist in custom dialog, so automatically added')),e.find("#epdnotick").css("display","none"),"none"!=e.css("display")&&console.error('cookiesDirective: Custom dialog element should have CSS style display: "none".'),e.show()):(b("#cookiesdirective").remove(),c='<div id="epd"><div id="cookiesdirective" style="position:'+(a.css+";"+a.position+":-300px;left:0px;width:100%;"),c+="height:auto;background:"+a.backgroundColor+";opacity:."+
-a.backgroundOpacity+";",c+="-ms-filter: \u201calpha(opacity="+a.backgroundOpacity+")\u201d; filter: alpha(opacity="+a.backgroundOpacity+");",c+="-khtml-opacity: ."+a.backgroundOpacity+"; -moz-opacity: ."+a.backgroundOpacity+";",c+="color:"+a.fontColor+";",a.message||(a.explicitConsent?(a.message="This site uses cookies. Some of the cookies we ",a.message+="use are essential for parts of the site to operate and have already been set."):a.message="We have placed cookies on your computer to help make this website better."),
-c=c+'text-align:center;z-index:1000;"><div class="cookieText display-7" style="position:relative;height:auto;width:90%;padding:10px;margin-left:auto;margin-right:auto; font-size:inherit;">'+a.message,a.explicitConsent?(c=c+(e+'You may delete and block all cookies from this site, but parts of the site will not work.To find out more about cookies on this website, see our <a style="color:')+(a.linkColor+";font-weight:bold;"),c+="font-family:"+a.fontFamily+";font-size:"+a.fontSize+';" href="'+a.privacyPolicyUri+
-'">privacy policy</a>.<br/>',c+='<div id="epdnotick" style="color:#ca0000;display:none;margin:2px;"><span style="background:#cecece;padding:2px;">You must tick the "I accept cookies from this site" box to accept</span></div><div style="margin-top:5px;">I accept cookies from this site <input type="checkbox" name="epdagree" id="epdagree" />&nbsp;<input type="submit" name="explicitsubmit" id="explicitsubmit" value="Continue"/><br/></div></div>'):c=c+e+('<input style="display: inline-block; margin-left:10px; font-size:inherit;'+
-(a.colorButton?" background-color:"+a.colorButton+" !important;":"")+(a.colorButton&&self===top?"border-color:"+a.colorButton+" !important;":"")+'" type="submit" name="impliedsubmit" id="impliedsubmit" class="btn btn-sm btn-primary display-7" value="'+a.textButton+'"/></div>'),c=(c+"</div></div>").replace(/<a/g,'<a style="color: '+a.linkColor+";text-decoration:"+(!0===a.underlineLink||"true"===a.underlineLink?"underline":"none")+';"'),b("body").append(c));var k=a.position.toLowerCase();"top"!=k&&
-"bottom"!=k&&(k="top");var l=e=null;"top"==k?(e={top:a.positionOffset},l={top:"-300"}):(e={bottom:a.positionOffset},l={bottom:"-300"});b("#cookiesdirective").animate(e,a.animate?1E3:0,function(){a.explicitConsent?b("#explicitsubmit").click(function(){b("#epdagree").is(":checked")?(d("cookiesDirective",1,365),b("#cookiesdirective").animate(l,1E3,function(){b("#cookiesdirective").remove();location.reload(!0)})):b("#epdnotick").css("display","")}):b("#impliedsubmit").click(function(){b("#impliedsubmit").is("[demo]")||
-(d("cookiesDirective",1,365),b("#cookiesdirective").animate(l,a.animate?1E3:0,function(){b("#cookiesdirective").remove()}))});0<a.duration&&setTimeout(function(){b("#cookiesdirective").animate({opacity:"0"},2E3,function(){b("#cookiesdirective").css(k,"-300px")})},1E3*a.duration);a.callback()})}})(jQuery);
+/* Cookies Directive - The rewrite. Now a jQuery plugin
+ * Version: 2.1.0
+ * Author: Ollie Phillips
+ * 24 October 2013
+
+ Modified by Mobirise
+ */
+
+;(function($) {
+	$.cookiesDirective = function(options) {
+
+		// Default Cookies Directive Settings
+		var settings = $.extend({
+			//Options
+			explicitConsent: true,
+			position: 'top',
+			duration: 10,
+			limit: 0,
+			message: null,
+			cookieScripts: null,
+			privacyPolicyUri: 'privacy.html',
+			scriptWrapper: function(){},
+			customDialogSelector: null,
+			// Styling
+			fontFamily: 'helvetica',
+			fontColor: '#FFFFFF',
+			fontSize: '13px',
+			backgroundColor: '#000000',
+			backgroundOpacity: '80',
+			linkColor: '#CA0000',
+			underlineLink: true,
+			textButton: null,
+			colorButton: '',
+			positionOffset: '0',
+			animate: true,
+			callback: function () {}
+		}, options);
+
+		// Perform consent checks
+		if(!getCookie('cookiesDirective')) {
+			if(settings.limit > 0) {
+				// Display limit in force, record the view
+				if(!getCookie('cookiesDisclosureCount')) {
+					setCookie('cookiesDisclosureCount',1,1);
+				} else {
+					var disclosureCount = getCookie('cookiesDisclosureCount');
+					disclosureCount ++;
+					setCookie('cookiesDisclosureCount',disclosureCount,1);
+				}
+
+				// Have we reached the display limit, if not make disclosure
+				if(settings.limit >= getCookie('cookiesDisclosureCount')) {
+					disclosure(settings);
+				}
+			} else {
+				// No display limit
+				disclosure(settings);
+			}
+
+			// If we don't require explicit consent, load up our script wrapping function
+			if(!settings.explicitConsent) {
+				settings.scriptWrapper.call();
+			}
+		} else {
+			// Cookies accepted, load script wrapping function
+			settings.scriptWrapper.call();
+		}
+	};
+
+	// Used to load external javascript files into the DOM
+	$.cookiesDirective.loadScript = function(options) {
+		var settings = $.extend({
+			uri: 		'',
+			appendTo: 	'body'
+		}, options);
+
+		var elementId = String(settings.appendTo);
+		var sA = document.createElement("script");
+		sA.src = settings.uri;
+		sA.type = "text/javascript";
+		sA.onload = sA.onreadystatechange = function() {
+			if ((!sA.readyState || sA.readyState == "loaded" || sA.readyState == "complete")) {
+				return;
+			}
+		};
+		switch(settings.appendTo) {
+			case 'head':
+				$('head').append(sA);
+			  	break;
+			case 'body':
+				$('body').append(sA);
+			  	break;
+			default:
+				$('#' + elementId).append(sA);
+		}
+	};
+
+	// Helper scripts
+	// Get cookie
+	var getCookie = function(name) {
+		var nameEQ = name + "=";
+		var ca = document.cookie.split(';');
+		for(var i=0;i < ca.length;i++) {
+			var c = ca[i];
+			while (c.charAt(0)==' ') c = c.substring(1,c.length);
+			if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length,c.length);
+		}
+		return null;
+	};
+
+	// Set cookie
+	var setCookie = function(name,value,days) {
+		var expires = "";
+		if (days) {
+			var date = new Date();
+			date.setTime(date.getTime()+(days*24*60*60*1000));
+			expires = "; expires="+date.toGMTString();
+		}
+		document.cookie = name+"="+value+expires+"; path=/";
+	};
+
+	// Detect IE < 9
+	var checkIE = function(){
+		var version;
+		if (navigator.appName == 'Microsoft Internet Explorer') {
+	        var ua = navigator.userAgent;
+	        var re = new RegExp("MSIE ([0-9]{1,}[\\.0-9]{0,})");
+	        if (re.exec(ua) !== null) {
+	            version = parseFloat(RegExp.$1);
+			}
+			if (version <= 8.0) {
+				return true;
+			} else {
+				if(version == 9.0) {
+					if(document.compatMode == "BackCompat") {
+						// IE9 in quirks mode won't run the script properly, set to emulate IE8
+						var mA = document.createElement("meta");
+						mA.content = "IE=EmulateIE8";
+						document.getElementsByTagName('head')[0].appendChild(mA);
+						return true;
+					} else {
+						return false;
+					}
+				}
+				return false;
+			}
+	    } else {
+			return false;
+		}
+	};
+
+	// Disclosure routines
+	var disclosure = function(options) {
+		var settings = options;
+		settings.css = 'fixed';
+
+		// IE 9 and lower has issues with position:fixed, either out the box or in compatibility mode - fix that
+		if(checkIE()) {
+			settings.position = 'top';
+			settings.css = 'absolute';
+		}
+
+		// Any cookie setting scripts to disclose
+		var scriptsDisclosure = '';
+		if (settings.cookieScripts) {
+			var scripts = settings.cookieScripts.split(',');
+			var scriptsCount = scripts.length;
+			var scriptDisclosureTxt = '';
+			if(scriptsCount>1) {
+				for(var t=0; t < scriptsCount - 1; t++) {
+					 scriptDisclosureTxt += scripts[t] + ', ';
+				}
+				scriptsDisclosure = ' We use ' +  scriptDisclosureTxt.substring(0,  scriptDisclosureTxt.length - 2) + ' and ' + scripts[scriptsCount - 1] + ' scripts, which all set cookies. ';
+			} else {
+				scriptsDisclosure = ' We use a ' + scripts[0] + ' script which sets cookies.';
+			}
+		}
+
+		// Create overlay, vary the disclosure based on explicit/implied consent
+		// Set our disclosure/message if one not supplied
+		if (!settings.customDialogSelector) {
+
+			// Remove the "cookiesdirective" dialog if it already exists in the HTML.
+			$('#cookiesdirective').remove();
+
+			var html = '';
+			html += '<div id="epd">';
+			html += '<div id="cookiesdirective" style="position:'+ settings.css +';'+ settings.position + ':-300px;left:0px;width:100%;';
+			html += 'height:auto;background:' + settings.backgroundColor + ';opacity:.' + settings.backgroundOpacity + ';';
+			html += '-ms-filter: “alpha(opacity=' + settings.backgroundOpacity + ')”; filter: alpha(opacity=' + settings.backgroundOpacity + ');';
+			html += '-khtml-opacity: .' + settings.backgroundOpacity + '; -moz-opacity: .' + settings.backgroundOpacity + ';';
+			html += 'color:' + settings.fontColor + ';';
+			html += 'text-align:center;z-index:1000;">';
+			html += '<div class="cookieText display-7" style="position:relative;height:auto;width:90%;padding:10px;margin-left:auto;margin-right:auto; font-size:inherit;">';
+
+			if(!settings.message) {
+				if(settings.explicitConsent) {
+					// Explicit consent message
+					settings.message = 'This site uses cookies. Some of the cookies we ';
+					settings.message += 'use are essential for parts of the site to operate and have already been set.';
+				} else {
+					// Implied consent message
+					settings.message = 'We have placed cookies on your computer to help make this website better.';
+				}
+			}
+			html += settings.message;
+
+			// Build the rest of the disclosure for implied and explicit consent
+			if(settings.explicitConsent) {
+				// Explicit consent disclosure
+				html += scriptsDisclosure + 'You may delete and block all cookies from this site, but parts of the site will not work.';
+				html += 'To find out more about cookies on this website, see our <a style="color:'+ settings.linkColor + ';font-weight:bold;';
+				html += 'font-family:' + settings.fontFamily + ';font-size:' + settings.fontSize + ';" href="'+ settings.privacyPolicyUri + '">privacy policy</a>.<br/>';
+				html += '<div id="epdnotick" style="color:#ca0000;display:none;margin:2px;"><span style="background:#cecece;padding:2px;">You must tick the "I accept cookies from this site" box to accept</span></div>';
+				html += '<div style="margin-top:5px;">I accept cookies from this site <input type="checkbox" name="epdagree" id="epdagree" />&nbsp;';
+				html += '<input type="submit" name="explicitsubmit" id="explicitsubmit" value="Continue"/><br/></div></div>';
+
+			} else {
+				// Implied consent disclosure
+				html += scriptsDisclosure;
+				html += '<input style="display: inline-block; margin-left:10px; font-size:inherit;' + (settings.colorButton ? ' background-color:' + settings.colorButton + ' !important;' : '') + (settings.colorButton && self === top ? 'border-color:' + settings.colorButton + ' !important;' : '') + '" type="submit" name="impliedsubmit" id="impliedsubmit" class="btn btn-sm btn-primary display-7" value="' + settings.textButton + '"/></div>';
+			}
+			html += '</div></div>';
+
+			// Links
+			html = html.replace(/<a/g, '<a style="color: ' + settings.linkColor + ';text-decoration:' + (settings.underlineLink === true || settings.underlineLink === 'true' ? 'underline' : 'none') + ';"');
+
+			$('body').append(html);
+
+		} else {
+			// Get the dialog and "cookiesdirective" div.
+			var $dialog = $('#cookie-dialog');
+			var $cd = $dialog.find('#cookiesdirective');
+
+			// If explicit consent is required, the appropriate controls are
+			// needed for the user to be able to consent. If they are not
+			// added by the user (developer), we'll automatically add them
+			// here and issue a warning to the console.
+			if (settings.explicitConsent) {
+				if ($cd.find('#epdnotick').length == 0) {
+					$cd.append('<div id="epdnotick" style="display: none;">You must tick the "I accept cookies from this site" box to accept</div>');
+					console.warn('cookiesDirective: Element with ID "epdnotick" does not exist in custom dialog, so automatically added');
+				}
+				if ($cd.find('input#epdagree').length == 0) {
+					$cd.append('<input type="checkbox" id="epdagree" />');
+					console.warn('cookiesDirective: Checkbox with ID "epdagree" does not exist in custom dialog, so automatically added');
+				}
+				if ($cd.find('input#explicitsubmit').length == 0) {
+					$cd.append('<input type="submit" id="explicitsubmit" value="Continue" />');
+					console.warn('cookiesDirective: Submit button with ID "explicitsubmit" does not exist in custom dialog, so automatically added');
+				}
+			// However, if implied consent is enough, we'll still need a
+			// button for the user to indicate that they do not want to see
+			// the message again.
+			} else {
+				if ($cd.find('input#impliedsubmit').length == 0) {
+					$cd.append('<input type="submit" id="impliedsubmit" value="Do not show this message again" />');
+					console.warn('cookiesDirective: Submit button with ID "impliedsubmit" does not exist in custom dialog, so automatically added');
+				}
+			}
+
+			// Make sure that the custom dialog's message about explicit
+			// consent being required, is invisible at the start.
+			$dialog.find('#epdnotick').css('display', 'none');
+
+			// The custom dialog must start invisible. We cannot automatically
+			// set it at this point because it will revert to its original
+			// state once the cookie acceptance is complete. Instead, we warn
+			// the user (developer).
+			if ($dialog.css('display') != 'none') {
+				console.error('cookiesDirective: Custom dialog element should have CSS style display: "none".');
+			}
+
+			// Dialog starts hidden so that it's not visible in content
+			// afterwards, so it has to be explicitly made visible.
+			$dialog.show();
+		}
+
+		// Serve the disclosure, and be smarter about branching
+		var dp = settings.position.toLowerCase();
+		if(dp != 'top' && dp!= 'bottom') {
+			dp = 'top';
+		}
+		var opts = { in: null, out: null};
+		if(dp == 'top') {
+			opts.in = {'top':settings.positionOffset};
+			opts.out = {'top':'-300'};
+		} else {
+			opts.in = {'bottom':settings.positionOffset};
+			opts.out = {'bottom':'-300'};
+		}
+
+		// Start animation
+		$('#cookiesdirective').animate(opts.in, (settings.animate ? 1000 : 0), function() {
+			// Set event handlers depending on type of disclosure
+			if(settings.explicitConsent) {
+				// Explicit, need to check a box and click a button
+				$('#explicitsubmit').click(function() {
+					if($('#epdagree').is(':checked')) {
+						// Set a cookie to prevent this being displayed again
+						setCookie('cookiesDirective',1,365);
+						// Close the overlay
+						$('#cookiesdirective').animate(opts.out,1000,function() {
+							// Remove the elements from the DOM and reload page
+							$('#cookiesdirective').remove();
+							location.reload(true);
+						});
+					} else {
+						// Show message about explicit consent being required
+						// (CSS style display set to default)
+						$('#epdnotick').css('display', '');
+					}
+				});
+			} else {
+				// Implied consent, just a button to close it
+				$('#impliedsubmit').click(function() {
+					// If demo-mode off event
+                    if ($('#impliedsubmit').is("[demo]")) return;
+					// Set a cookie to prevent this being displayed again
+					setCookie('cookiesDirective',1,365);
+					// Close the overlay
+					$('#cookiesdirective').animate(opts.out, settings.animate ? 1000 : 0, function() {
+						// Remove the elements from the DOM and reload page
+						$('#cookiesdirective').remove();
+					});
+				});
+			}
+
+			if(settings.duration > 0)
+			{
+				// Set a timer to remove the warning after 'settings.duration' seconds
+				setTimeout(function(){
+					$('#cookiesdirective').animate({
+						opacity:'0'
+					},2000, function(){
+						$('#cookiesdirective').css(dp,'-300px');
+					});
+				}, settings.duration * 1000);
+			}
+
+			settings.callback();
+		});
+	};
+})(jQuery);
