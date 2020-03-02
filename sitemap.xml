@@ -75,12 +75,12 @@
 		<loc>https://syntechsrobotics.ca/6408g.html</loc>
 	</url>
 	<url>
-		<loc>https://syntechsrobotics.ca/robot-design.html</loc>
-	</url>
-	<url>
-		<loc>https://syntechsrobotics.ca/design-process.html</loc>
-	</url>
-	<url>
 		<loc>https://syntechsrobotics.ca/friends.html</loc>
+	</url>
+	<url>
+		<loc>https://syntechsrobotics.ca/build.html</loc>
+	</url>
+	<url>
+		<loc>https://syntechsrobotics.ca/design.html</loc>
 	</url>
 </urlset>
