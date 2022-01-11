@@ -140,6 +140,7 @@
 	<url>
 		<loc>https://syntechsrobotics.ca/page49.html</loc>
 	</url>
+<<<<<<< HEAD
 	<url>
 		<loc>https://syntechsrobotics.ca/page50.html</loc>
 	</url>
@@ -149,4 +150,6 @@
 	<url>
 		<loc>https://syntechsrobotics.ca/page52.html</loc>
 	</url>
+=======
+>>>>>>> 46c2759da153b8a7a158f3e6b1ed23d63a52e672
 </urlset>
