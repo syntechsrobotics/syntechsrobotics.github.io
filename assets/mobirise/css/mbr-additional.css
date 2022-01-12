@@ -1727,116 +1727,6 @@ section.lazy-placeholder:after {
     padding: 1rem!important;
   }
 }
-.cid-rM1yjmkEY4 {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: #fcf6f6;
-}
-.cid-rM1yjmkEY4 .row-main {
-  -webkit-flex-direction: row-reverse;
-  flex-direction: row-reverse;
-}
-.cid-rM1yjmkEY4 .card {
-  -webkit-align-items: center;
-  align-items: center;
-  display: flex;
-  -webkit-flex-direction: row;
-  flex-direction: row;
-  padding-bottom: 0.5rem;
-}
-.cid-rM1yjmkEY4 .container-fluid {
-  padding: 0;
-  overflow: hidden;
-}
-.cid-rM1yjmkEY4 .img {
-  margin: auto;
-}
-.cid-rM1yjmkEY4 .card-box {
-  width: 100%;
-}
-.cid-rM1yjmkEY4 p {
-  line-height: 1.5;
-  margin: 0;
-}
-.cid-rM1yjmkEY4 .box {
-  padding: 3rem 13rem;
-  margin: auto;
-}
-.cid-rM1yjmkEY4 .card-img {
-  padding: 0rem;
-  border-radius: 100%;
-  height: 120px;
-  width: 120px;
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  display: flex;
-}
-.cid-rM1yjmkEY4 .card-img span {
-  color: #232323;
-  font-size: 3.6rem;
-}
-.cid-rM1yjmkEY4 img {
-  width: 100%;
-}
-.cid-rM1yjmkEY4 .mbr-text {
-  color: #767676;
-}
-@media (max-width: 1500px) {
-  .cid-rM1yjmkEY4 .box {
-    padding: 3rem 4rem;
-  }
-}
-@media (max-width: 991px) {
-  .cid-rM1yjmkEY4 .box {
-    padding: 2rem 6rem;
-  }
-}
-@media (max-width: 576px) {
-  .cid-rM1yjmkEY4 .box {
-    padding: 2rem 3rem;
-  }
-}
-.cid-rM1yjmkEY4 .card-title,
-.cid-rM1yjmkEY4 .card-img {
-  color: #860009;
-  text-align: left;
-}
-.cid-rM1yjmkEY4 .mbr-section-title {
-  text-align: center;
-}
-.cid-rM1yjmkEY4 .mbr-section-sub-title {
-  text-align: center;
-  color: #9e9e9e;
-}
-.cid-rM1yjmkEY4 .mbr-section-title,
-.cid-rM1yjmkEY4 .line-wrap {
-  text-align: center;
-  width: 100%;
-  color: #000000;
-}
-.cid-rM1yjmkEY4 .mbr-text,
-.cid-rM1yjmkEY4 .line-wrap2 {
-  text-align: left;
-  color: #000000;
-}
-.cid-rM1yjmkEY4 .line-wrap3 {
-  display: inline-block;
-  width: 100%;
-}
-.cid-rM1yjmkEY4 .line {
-  display: inline-block;
-  width: 80px;
-  height: 4px;
-  background-color: #860009;
-  margin-bottom: 1.5rem;
-  margin-left: 46%;
-  margin-top: -0.5rem;
-}
-.cid-rM1yjmkEY4 .count {
-  animation-duration: 2sec;
-}
 .cid-rLVvm4U4JK {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -2009,6 +1899,77 @@ section.lazy-placeholder:after {
   padding-left: 10px;
   padding-right: 10px;
   background-color: #fcf6f6;
+}
+.cid-sUi20Tsk67 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-sUi20Tsk67 .mbr-slider .carousel-control {
+  background: #1b1b1b;
+}
+.cid-sUi20Tsk67 .mbr-slider .carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-sUi20Tsk67 .mbr-slider .carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+.cid-sUi20Tsk67 .mbr-slider .modal-body .close {
+  background: #1b1b1b;
+}
+.cid-sUi20Tsk67 .row > .row {
+  display: block;
+}
+.cid-sUi20Tsk67 .mbr-gallery-item {
+  width: 100%;
+}
+.cid-sUi20Tsk67 .mbr-gallery-item > div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity ease-in-out;
+  transition: 0.2s opacity ease-in-out;
+  background: linear-gradient(to left, #ffffff, #c1c1c1) !important;
+}
+.cid-sUi20Tsk67 .mbr-gallery-item > div {
+  position: relative;
+}
+.cid-sUi20Tsk67 .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+  background: transparent !important;
+}
+.cid-sUi20Tsk67 .mbr-gallery-item > div:hover:before {
+  opacity: 0.5 !important;
+}
+.cid-sUi20Tsk67 .mbr-gallery-title {
+  font-size: .9em;
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  color: #fff;
+  z-index: 2;
+}
+.cid-sUi20Tsk67 .mbr-gallery-title:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background: #ffffff !important;
+  opacity: 0.5;
+  -webkit-transition: 0.2s background ease-in-out;
+  transition: 0.2s background ease-in-out;
+  background: linear-gradient(to left, #ffffff, #c1c1c1) !important;
 }
 .cid-rM0c1Q2Xhu {
   padding-top: 60px;
