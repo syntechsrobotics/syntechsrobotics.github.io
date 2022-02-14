@@ -1344,6 +1344,117 @@ section.lazy-placeholder:after {
     display: none;
   }
 }
+.cid-sXo03s3RUO {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-sXo03s3RUO .mbr-section-subtitle {
+  color: #767676;
+  text-align: center;
+  font-weight: 300;
+}
+.cid-sXo03s3RUO .line-wrap {
+  display: inline-block;
+  width: 100%;
+}
+.cid-sXo03s3RUO .line {
+  display: inline-block;
+  width: 80px;
+  height: 4px;
+  background-color: #860009;
+  margin-bottom: 1rem;
+}
+.cid-sXo03s3RUO .logo > * {
+  display: inline-block;
+  padding-left: 0;
+  padding-right: 0;
+}
+.cid-sXo03s3RUO .logo img {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .cid-sXo03s3RUO .col-md-3 {
+    margin-bottom: 2rem;
+  }
+}
+.cid-sXo03s3RUO .number {
+  color: #232323;
+  position: relative;
+  display: flex;
+  text-align: center;
+  border: 2px solid #860009;
+  margin: auto;
+  border-radius: 100%;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  text-transform: none;
+  letter-spacing: -1px;
+  word-spacing: 0;
+  line-height: 1.3;
+  background: #fcf6f6;
+}
+.cid-sXo03s3RUO .period {
+  display: block;
+  padding-top: 2px;
+  font-weight: 700;
+}
+.cid-sXo03s3RUO .dot {
+  display: none;
+}
+.cid-sXo03s3RUO .countdown-cont {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.cid-sXo03s3RUO .countdown-cont .countdown {
+  color: #232323;
+}
+@media (max-width: 550px) {
+  .cid-sXo03s3RUO .number-wrap {
+    min-width: auto;
+  }
+  .cid-sXo03s3RUO .number {
+    width: auto;
+    height: auto;
+    border: none;
+    white-space: nowrap;
+  }
+}
+@media (max-width: 440px) {
+  .cid-sXo03s3RUO .number {
+    font-size: 40px;
+  }
+}
+@media (max-width: 380px) {
+  .cid-sXo03s3RUO .period {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 300px) {
+  .cid-sXo03s3RUO .number {
+    font-size: 25px;
+  }
+  .cid-sXo03s3RUO .period {
+    font-size: 0.8rem;
+  }
+}
+.cid-sXo03s3RUO .mbr-section-title,
+.cid-sXo03s3RUO .line-wrap {
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .cid-sXo03s3RUO {
+    display: none;
+  }
+}
 .cid-sUi8j4TScp {
   padding-top: 45px;
   padding-bottom: 0px;
