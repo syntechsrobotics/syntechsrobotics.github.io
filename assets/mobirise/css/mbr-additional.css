@@ -567,6 +567,32 @@ blockquote {
 .mbr-form .input-group-btn button[type="submit"]:hover {
   box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
 }
+.form2 .form-control {
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+.form2 .input-group-btn a.btn {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.form2 .input-group-btn button[type="submit"] {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.form3 input[type="email"] {
+  border-radius: 100px !important;
+}
+@media (max-width: 349px) {
+  .form2 input[type="email"] {
+    border-radius: 100px !important;
+  }
+  .form2 .input-group-btn a.btn {
+    border-radius: 100px !important;
+  }
+  .form2 .input-group-btn button[type="submit"] {
+    border-radius: 100px !important;
+  }
+}
 @media (max-width: 767px) {
   .btn {
     font-size: .75rem !important;
@@ -574,27 +600,6 @@ blockquote {
   .btn .mbr-iconfont {
     font-size: 1rem !important;
   }
-}
-/* Footer */
-.mbr-footer-content li::before,
-.mbr-footer .mbr-contacts li::before {
-  background: #149dcc;
-}
-.mbr-footer-content li a:hover,
-.mbr-footer .mbr-contacts li a:hover {
-  color: #149dcc;
-}
-.footer3 input[type="email"],
-.footer4 input[type="email"] {
-  border-radius: 100px !important;
-}
-.footer3 .input-group-btn a.btn,
-.footer4 .input-group-btn a.btn {
-  border-radius: 100px !important;
-}
-.footer3 .input-group-btn button[type="submit"],
-.footer4 .input-group-btn button[type="submit"] {
-  border-radius: 100px !important;
 }
 /* Headers*/
 .header13 .form-inline input[type="email"],
@@ -677,6 +682,10 @@ iframe.lazy-placeholder,
 }
 section.lazy-placeholder:after {
   opacity: 0.3;
+}
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-duration: 0.5s;
 }
 .cid-rMbkV6guD8 .navbar {
   background: #fcf6f6;
@@ -21029,6 +21038,18 @@ section.lazy-placeholder:after {
   padding-right: 10px;
   background-color: #fcf6f6;
 }
+#custom-html-s3 {
+  /* Type valid CSS here */
+}
+#custom-html-s3 div {
+  padding: 80px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-s3 p {
+  font-size: 60px;
+  color: #777;
+}
 .cid-rMyrXuHW07 {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -21174,6 +21195,30 @@ section.lazy-placeholder:after {
   padding-left: 10px;
   padding-right: 10px;
   background-color: #fcf6f6;
+}
+#custom-html-s4 {
+  /* Type valid CSS here */
+}
+#custom-html-s4 div {
+  padding: 80px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-s4 p {
+  font-size: 60px;
+  color: #777;
+}
+#custom-html-s2 {
+  /* Type valid CSS here */
+}
+#custom-html-s2 div {
+  padding: 80px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-s2 p {
+  font-size: 60px;
+  color: #777;
 }
 .cid-rMXmISaXLL {
   padding-top: 0px;
